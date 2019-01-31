@@ -55,6 +55,39 @@ public:
     }
 };
 
+class Function{
+    string name;
+public:
+    Function(){
+        name = "";
+    }
+    Function(string name){
+        this->name = name;
+    }
+    void setName(string name){
+        this->name = name;
+    }
+    string getName(){
+        return name;
+    }
+};
+
+class Predicate{
+    
+};
+
+class Connective{
+    
+};
+
+class Quantifier{
+    
+};
+
+class Punctuation{
+    
+};
+
 int main(int argc, const char * argv[]) {
     Variable v = Variable("A",true);
     Constant c = Constant("C",true);
