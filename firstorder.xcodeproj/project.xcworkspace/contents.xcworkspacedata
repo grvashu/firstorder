@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:firstorder.xcodeproj">
+      location = "self:/Users/grvashu/Documents/GitHub/firstorder/src.xcodeproj">
    </FileRef>
 </Workspace>
